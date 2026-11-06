@@ -1,0 +1,28 @@
+# Python & Virtual Environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Model Weights (File Besar yang dikecualikan dari Git)
+models/model.pt
+saved_mas_model.zip
+*.bin
+
+# Flutter & Dart Build Cache
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub/
+mobile/.pub-cache/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
